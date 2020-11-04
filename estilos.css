@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+h1 {
+  font-weight: lighter;
+  font-size: 25px;
+}
+div {
+    margin: 20px;
+}
+.possibleerror {
+  display: none;
+}
+.error {
+  color: #FF8c8c;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 25px;
+}
+
+.valid {
+  border: 2px solid black;
+}
+
+.required{
+  background-image: linear-gradient(to right, red, blue);
+}
